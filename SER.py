@@ -56,7 +56,7 @@ def maxLength(folderPath):
 
 
 def feature_extraction(folderPath, totalLength, frameLength, hopLength):
-    """"This function will extract features from the audio files in the specified folder (database)| :param
+    """ This function will extract features from the audio files in the specified folder (database)| :param
     folderPath: a path to the folder (database), totalLength: the number of samples in the longest audio file,
     frameLength: length of a frame (for some MIR functions) in samples (if in doubt insert 2048), hopLength: length
     of a hop (for some MIR functions) in samples (if in doubt insert 512) | :return: - rms, zerocross, mfcc, emotions,
