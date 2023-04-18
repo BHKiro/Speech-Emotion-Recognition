@@ -17,15 +17,12 @@ import struct
 import time
 
 # Declaring paths to the model, the weights and the .wav file recording of your choice
-# saved_model_path = './SER_Model'
-# saved_weights_path = './best_weights.hdf5'
-# test_path = './data_set/Audio_Speech_Actors_01-24/Actor_03/03-01-02-01-01-02-03.wav'
 # Path to audio recording
 recording_path = './my_recording_5.wav'
 
 # Path to the model trained with all 8 emotions
-saved_model_path = 'C:/Users/keyzi/OneDrive - Birmingham City University/Desktop/SER_8emotions/MyModel'
-saved_weights_path = 'C:/Users/keyzi/OneDrive - Birmingham City University/Desktop/SER_8emotions/best_weights.hdf5'
+saved_model_path = 'PATH_TO_MODEL'
+saved_weights_path = 'PATH_TO_WEIGHTS'
 
 # Loading the model and the weights
 model = tf.keras.models.load_model(saved_model_path)
