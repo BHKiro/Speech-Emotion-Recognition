@@ -8,7 +8,7 @@ import tensorflow as tf
 import keras
 import sklearn
 from sklearn.model_selection import train_test_split
-from keras.models import Sequential
+from tensorflow.python.keras.models import Sequential
 from keras import layers
 from keras import optimizers
 from keras import callbacks

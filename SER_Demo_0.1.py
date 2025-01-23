@@ -6,15 +6,10 @@ from pydub import AudioSegment, effects
 import noisereduce as nr
 import tensorflow as tf
 import keras
-from keras.models import model_from_json
-from keras.models import load_model
+from tensorflow.python.keras.models import model_from_json
+from tensorflow.python.keras.models import load_model
 import matplotlib.pyplot as plt
 import SER
-import pyaudio
-import wave
-from array import array
-import struct
-import time
 
 # Declaring paths to the model, the weights and the .wav file recording of your choice
 # Path to audio recording
